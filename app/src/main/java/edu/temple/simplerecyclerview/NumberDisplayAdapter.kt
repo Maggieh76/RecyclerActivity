@@ -15,8 +15,9 @@ class NumberDisplayAdapter(private val numbers: Array<Int>): RecyclerView.Adapte
             TextView(
                 parent.context
             ).apply{
-                layoutParams = ViewGroup.LayoutParams(300, 300)
+                layoutParams = ViewGroup.LayoutParams(300, 100)
             }
+        )
         }
 
     override fun getItemCount(): Int {
